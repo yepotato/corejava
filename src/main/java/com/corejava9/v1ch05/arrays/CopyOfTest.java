@@ -13,6 +13,7 @@ public class CopyOfTest
 {
    public static void main(String[] args)
    {
+      //master 上继续更新代码
       int[] a = { 1, 2, 3 };
       a = (int[]) goodCopyOf(a, 10);
       System.out.println(Arrays.toString(a));
