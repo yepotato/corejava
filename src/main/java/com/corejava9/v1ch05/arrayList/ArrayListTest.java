@@ -6,6 +6,7 @@ import java.util.*;
  * This program demonstrates the ArrayList class.
  * @version 1.11 2012-01-26
  * @author Cay Horstmann
+ * //edit by zemin
  */
 public class ArrayListTest
 {
