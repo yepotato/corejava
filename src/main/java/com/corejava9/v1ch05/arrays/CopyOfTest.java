@@ -7,6 +7,7 @@ import java.util.*;
  * This program demonstrates the use of reflection for manipulating arrays.
  * @version 1.2 2012-05-04
  * @author Cay Horstmann
+ * zemin 修改文件4 
  */
 public class CopyOfTest
 {
