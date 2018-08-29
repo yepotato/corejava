@@ -1,1 +1,15 @@
+.idea/
+.gradle
+*.iml
+out
+gen
+/**/build
+/**/classes
+/**/logs
+
+/META-INF/
 /target/
+.classpath
+.settings/
+.project
+.gitignore
