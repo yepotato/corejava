@@ -7,6 +7,7 @@ import java.util.*;
  * @version 1.11 2012-01-26
  * @author Cay Horstmann
  * //edit by zemin
+ *  gaozemin修改文件2
  */
 public class ArrayListTest
 {
