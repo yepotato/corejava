@@ -10,6 +10,7 @@ import com.corejava9.v1ch04.PackageTest.com.horstmann.corejava.Employee;
  * This program demonstrates the use of packages.
  * @version 1.11 2004-02-19
  * @author Cay Horstmann
+ // test tijiao
  */
 public class PackageTest
 {
