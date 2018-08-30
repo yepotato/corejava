@@ -83,4 +83,7 @@ public class CalendarTest
 
       //张三修改的bug比较多
    }
+   public void printHello(){
+      System.out.print("hello");
+   }
 }
