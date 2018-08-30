@@ -6,6 +6,7 @@ import java.util.*;
  * This program demonstrates object construction.
  * @version 1.01 2004-02-19
  * @author Cay Horstmann
+ * 张三开发模块2 代码
  */
 public class ConstructorTest
 {
