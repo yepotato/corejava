@@ -3,6 +3,9 @@ package com.corejava9.v1ch05.abstractClasses;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
+/**
+ * 重写toString方法
+ */
 public class Employee extends Person
 {
    private double salary;
@@ -35,5 +38,13 @@ public class Employee extends Person
    {
       double raise = salary * byPercent / 100;
       salary += raise;
+   }
+
+   @Override
+   public String toString() {
+      return "Employee{" +
+              "salary=" + salary +
+              ", hireDay=" + hireDay +
+              '}';
    }
 }
