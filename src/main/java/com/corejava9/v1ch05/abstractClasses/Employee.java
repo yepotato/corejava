@@ -5,6 +5,7 @@ import java.util.GregorianCalendar;
 
 /**
  * 重写toString方法
+ * 高泽民 开发模块3代码
  */
 public class Employee extends Person
 {
