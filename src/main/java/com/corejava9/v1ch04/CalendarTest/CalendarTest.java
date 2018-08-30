@@ -30,6 +30,7 @@ public class CalendarTest
       // get first day of week (Sunday in the U.S.)
       int firstDayOfWeek = d.getFirstDayOfWeek();
 
+      //张三修改bug
       // determine the required indentation for the first line
       int indent = 0;
       while (weekday != firstDayOfWeek)
@@ -49,7 +50,7 @@ public class CalendarTest
       }
       while (weekday != firstDayOfWeek);
       System.out.println();
-
+      //张三修改的bug比较多
       for (int i = 1; i <= indent; i++)
          System.out.print("    ");
 
@@ -76,5 +77,7 @@ public class CalendarTest
 
       // print final end of line if necessary
       if (weekday != firstDayOfWeek) System.out.println();
+
+      //张三修改的bug比较多
    }
 }
