@@ -83,4 +83,10 @@ public class CalendarTest
 
       //张三修改的bug比较多
    }
+
+
+
+   public void printnihao(){
+      System.out.print("nihao ");
+   }
 }
