@@ -39,14 +39,7 @@ public class Employee
       salary += raise;
    }
 
-   @Override
-   public String toString() {
-      return "Employee{" +
-              "name='" + name + '\'' +
-              ", salary=" + salary +
-              ", hireDay=" + hireDay +
-              '}';
-   }
+
 
    public void setName(String name) {
       this.name = name;
@@ -58,5 +51,13 @@ public class Employee
 
    public void setHireDay(Date hireDay) {
       this.hireDay = hireDay;
+   }
+   @Override
+   public String toString() {
+      return "Employee{" +
+              "name='" + name + '\'' +
+              ", salary=" + salary +
+              ", hireDay=" + hireDay +
+              '}';
    }
 }
