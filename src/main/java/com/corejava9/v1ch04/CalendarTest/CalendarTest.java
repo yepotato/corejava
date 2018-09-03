@@ -89,4 +89,9 @@ public class CalendarTest
    public void printnihao(){
       System.out.print("nihao ");
    }
+   public void printByzemin(){
+      System.out.print("zemin print  ");
+   }
+
+
 }
