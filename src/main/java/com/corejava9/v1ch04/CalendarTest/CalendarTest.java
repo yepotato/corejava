@@ -89,4 +89,8 @@ public class CalendarTest
    public void printnihao(){
       System.out.print("nihao ");
    }
+
+   public void printByzhangsan(){
+      System.out.print("zhangsan print  ");
+   }
 }
