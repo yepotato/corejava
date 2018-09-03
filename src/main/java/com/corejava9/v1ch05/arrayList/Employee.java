@@ -60,5 +60,6 @@ public class Employee
               ", hireDay=" + hireDay +
               '}';
    }
-   //xinzeng  update
+     //xinzeng  update
+	  //修改 新增add  方法
 }
