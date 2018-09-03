@@ -60,4 +60,5 @@ public class Employee
               ", hireDay=" + hireDay +
               '}';
    }
+   //修改 新增add  方法
 }
