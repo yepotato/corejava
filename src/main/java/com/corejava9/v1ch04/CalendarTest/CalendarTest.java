@@ -60,7 +60,7 @@ public class CalendarTest
       d.set(Calendar.DAY_OF_MONTH, 1);
       do
       {
-         // print day
+         // print day 12312312312
          int day = d.get(Calendar.DAY_OF_MONTH);
          System.out.printf("%3d", day);
 
@@ -85,5 +85,8 @@ public class CalendarTest
    }
    public void printHello(){
       System.out.print("hello");
+   }
+   public void printnihao(){
+      System.out.print("nihao ");
    }
 }
