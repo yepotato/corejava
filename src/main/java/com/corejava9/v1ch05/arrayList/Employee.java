@@ -38,4 +38,13 @@ public class Employee
       double raise = salary * byPercent / 100;
       salary += raise;
    }
+
+   @Override
+   public String toString() {
+      return "Employee{" +
+              "name='" + name + '\'' +
+              ", salary=" + salary +
+              ", hireDay=" + hireDay +
+              '}';
+   }
 }
