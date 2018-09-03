@@ -38,4 +38,16 @@ public class Employee
       double raise = salary * byPercent / 100;
       salary += raise;
    }
+
+   public void setName(String name) {
+      this.name = name;
+   }
+
+   public void setSalary(double salary) {
+      this.salary = salary;
+   }
+
+   public void setHireDay(Date hireDay) {
+      this.hireDay = hireDay;
+   }
 }
