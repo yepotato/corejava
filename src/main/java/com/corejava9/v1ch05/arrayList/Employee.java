@@ -47,4 +47,16 @@ public class Employee
               ", hireDay=" + hireDay +
               '}';
    }
+
+   public void setName(String name) {
+      this.name = name;
+   }
+
+   public void setSalary(double salary) {
+      this.salary = salary;
+   }
+
+   public void setHireDay(Date hireDay) {
+      this.hireDay = hireDay;
+   }
 }
